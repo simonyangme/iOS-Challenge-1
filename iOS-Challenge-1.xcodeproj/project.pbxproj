@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		8927D22719957C6700375826 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927D22619957C6700375826 /* main.m */; };
 		8927D22A19957C6700375826 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927D22919957C6700375826 /* AppDelegate.m */; };
-		8927D22D19957C6700375826 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927D22C19957C6700375826 /* ViewController.m */; };
 		8927D23019957C6700375826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8927D22E19957C6700375826 /* Main.storyboard */; };
 		8927D23219957C6700375826 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8927D23119957C6700375826 /* Images.xcassets */; };
 		8927D23E19957C6700375826 /* iOS_Challenge_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927D23D19957C6700375826 /* iOS_Challenge_1Tests.m */; };
+		8927D24A1995815300375826 /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927D2491995815300375826 /* FormViewController.m */; };
+		8927D24D1995816600375826 /* FormViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927D24C1995816600375826 /* FormViewModel.m */; };
+		8927D25019958A9B00375826 /* NSString+FormSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927D24F19958A9B00375826 /* NSString+FormSupport.m */; };
+		8927D25119958A9B00375826 /* NSString+FormSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8927D24F19958A9B00375826 /* NSString+FormSupport.m */; };
+		8977AFFF199598D70066C7F8 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8977AFFE199598D70066C7F8 /* ModalViewController.m */; };
+		D00D378421E84666B5FC4A8E /* libPods-iOS-Challenge-1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4B6BBE2B04A1B882094FC /* libPods-iOS-Challenge-1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,18 +31,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AB4B6BBE2B04A1B882094FC /* libPods-iOS-Challenge-1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-Challenge-1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8927D22119957C6700375826 /* iOS-Challenge-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Challenge-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8927D22519957C6700375826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8927D22619957C6700375826 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8927D22819957C6700375826 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8927D22919957C6700375826 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8927D22B19957C6700375826 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8927D22C19957C6700375826 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8927D22F19957C6700375826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8927D23119957C6700375826 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8927D23719957C6700375826 /* iOS-Challenge-1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Challenge-1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8927D23C19957C6700375826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8927D23D19957C6700375826 /* iOS_Challenge_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Challenge_1Tests.m; sourceTree = "<group>"; };
+		8927D2481995815300375826 /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
+		8927D2491995815300375826 /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
+		8927D24B1995816600375826 /* FormViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewModel.h; sourceTree = "<group>"; };
+		8927D24C1995816600375826 /* FormViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewModel.m; sourceTree = "<group>"; };
+		8927D24E19958A9B00375826 /* NSString+FormSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FormSupport.h"; sourceTree = "<group>"; };
+		8927D24F19958A9B00375826 /* NSString+FormSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormSupport.m"; sourceTree = "<group>"; };
+		8977AFFD199598D70066C7F8 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		8977AFFE199598D70066C7F8 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		C461FA8E23A14A4FA3871112 /* Pods-iOS-Challenge-1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Challenge-1.xcconfig"; path = "Pods/Pods-iOS-Challenge-1.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D00D378421E84666B5FC4A8E /* libPods-iOS-Challenge-1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76F8FB06D9EF45E1856F729A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB4B6BBE2B04A1B882094FC /* libPods-iOS-Challenge-1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8927D21819957C6700375826 = {
 			isa = PBXGroup;
 			children = (
 				8927D22319957C6700375826 /* iOS-Challenge-1 */,
 				8927D23A19957C6700375826 /* iOS-Challenge-1Tests */,
 				8927D22219957C6700375826 /* Products */,
+				C461FA8E23A14A4FA3871112 /* Pods-iOS-Challenge-1.xcconfig */,
+				76F8FB06D9EF45E1856F729A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +103,12 @@
 		8927D22319957C6700375826 /* iOS-Challenge-1 */ = {
 			isa = PBXGroup;
 			children = (
+				8977AFFC199598A60066C7F8 /* Modal */,
+				8927D2471995812800375826 /* Form */,
 				8927D22819957C6700375826 /* AppDelegate.h */,
 				8927D22919957C6700375826 /* AppDelegate.m */,
-				8927D22B19957C6700375826 /* ViewController.h */,
-				8927D22C19957C6700375826 /* ViewController.m */,
+				8927D24E19958A9B00375826 /* NSString+FormSupport.h */,
+				8927D24F19958A9B00375826 /* NSString+FormSupport.m */,
 				8927D22E19957C6700375826 /* Main.storyboard */,
 				8927D23119957C6700375826 /* Images.xcassets */,
 				8927D22419957C6700375826 /* Supporting Files */,
@@ -116,6 +142,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8927D2471995812800375826 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				8927D2481995815300375826 /* FormViewController.h */,
+				8927D2491995815300375826 /* FormViewController.m */,
+				8927D24B1995816600375826 /* FormViewModel.h */,
+				8927D24C1995816600375826 /* FormViewModel.m */,
+			);
+			name = Form;
+			sourceTree = "<group>";
+		};
+		8977AFFC199598A60066C7F8 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8977AFFD199598D70066C7F8 /* ModalViewController.h */,
+				8977AFFE199598D70066C7F8 /* ModalViewController.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8927D24119957C6700375826 /* Build configuration list for PBXNativeTarget "iOS-Challenge-1" */;
 			buildPhases = (
+				0A815F56A8EA409E95716848 /* Check Pods Manifest.lock */,
 				8927D21D19957C6700375826 /* Sources */,
 				8927D21E19957C6700375826 /* Frameworks */,
 				8927D21F19957C6700375826 /* Resources */,
+				4856E356ADFF44D2939F15DE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,14 +258,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A815F56A8EA409E95716848 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4856E356ADFF44D2939F15DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-iOS-Challenge-1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8927D21D19957C6700375826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8927D22D19957C6700375826 /* ViewController.m in Sources */,
 				8927D22A19957C6700375826 /* AppDelegate.m in Sources */,
+				8927D24A1995815300375826 /* FormViewController.m in Sources */,
+				8977AFFF199598D70066C7F8 /* ModalViewController.m in Sources */,
+				8927D24D1995816600375826 /* FormViewModel.m in Sources */,
 				8927D22719957C6700375826 /* main.m in Sources */,
+				8927D25019958A9B00375826 /* NSString+FormSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8927D23E19957C6700375826 /* iOS_Challenge_1Tests.m in Sources */,
+				8927D25119958A9B00375826 /* NSString+FormSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +414,7 @@
 		};
 		8927D24219957C6700375826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C461FA8E23A14A4FA3871112 /* Pods-iOS-Challenge-1.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -340,6 +426,7 @@
 		};
 		8927D24319957C6700375826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C461FA8E23A14A4FA3871112 /* Pods-iOS-Challenge-1.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -402,6 +489,7 @@
 				8927D24319957C6700375826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8927D24419957C6700375826 /* Build configuration list for PBXNativeTarget "iOS-Challenge-1Tests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +498,7 @@
 				8927D24619957C6700375826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

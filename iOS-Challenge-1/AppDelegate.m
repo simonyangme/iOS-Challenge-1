@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FormViewController.h"
+#import "FormViewModel.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,9 @@
             
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Setup view model here
+    FormViewController *formViewController = (FormViewController *)self.window.rootViewController;
+    formViewController.viewModel = [[FormViewModel alloc] init];
     return YES;
 }
 
